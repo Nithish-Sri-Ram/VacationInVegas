@@ -67,6 +67,15 @@ struct Symbols: View {
                 .onTapGesture {
                     shouldIRotate.toggle()
                 }
+            
+            Image(systemName: "dog.fill")
+                .font(.largeTitle)
+                .imageScale(.large)
+                .foregroundStyle(.teal)
+                .symbolEffect(.variableColor.reversing)
+                .onTapGesture {
+                    shouldIRotate.toggle()
+                }
  
         }
         .padding()
