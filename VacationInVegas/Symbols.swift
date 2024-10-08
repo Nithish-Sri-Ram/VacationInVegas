@@ -53,7 +53,6 @@ struct Symbols: View {
             Image(systemName: "arrow.clockwise.square")
                 .font(.largeTitle)
                 .imageScale(.large)
-//                .foregroundStyle(.blue.mix(with: .red, by: 0.25))
                 .symbolEffect(.bounce,value: shouldIRotate)
                 .onTapGesture {
                     shouldIRotate.toggle()

@@ -15,3 +15,10 @@ struct VacationInVegasApp: App {
         }
     }
 }
+
+// This is where you define the preview for your ContentView
+struct VacationInVegasApp_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView() // Preview the main content view
+    }
+}
