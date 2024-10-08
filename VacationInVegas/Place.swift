@@ -58,10 +58,10 @@ class Place{
         [
             Place(name: "Bellagio", latitude: 36.1129, longitude: -115.1765, interested: true),
             Place(name: "Paris", latitude: 36.1125, longitude: -115.1765, interested: true),
-            Place(name: "Treasure Island", latitude: 36.1247, longitude: -115.1765, interested: true),
+            Place(name: "Treasure Island", latitude: 36.1247, longitude: -115.1765, interested: false),
             Place(name: "Stratosphere", latitude: 36.1475, longitude: -115.1765, interested: true),
-            Place(name: "Luxor", latitude: 36.0955, longitude: -115.1765, interested: true),
-            Place(name: "Excalibur", latitude: 36.0988, longitude: -115.1765, interested: true),
+            Place(name: "Luxor", latitude: 36.0955, longitude: -115.1765, interested: false),
+            Place(name: "Excalibur", latitude: 36.0988, longitude: -115.1765, interested: false),
         ]
     }
 }
