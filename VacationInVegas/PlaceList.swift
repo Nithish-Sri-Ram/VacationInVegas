@@ -38,7 +38,7 @@ struct PlaceList: View {
     
     var body: some View {
         NavigationStack{
-            List(places) { place in
+            List((try? places.filter(predicate)) ?? places) { place in
                 HStack{
                     place.image
                         .resizable()
@@ -59,13 +59,25 @@ struct PlaceList: View {
             }
             .navigationTitle("Places")
             .searchable(text: $searchText,prompt: "Find a place")
+            .animation(.default,value: searchText)
             .toolbar{
                 ToolbarItem(placement: .topBarTrailing){
                     Button("Show Images", systemImage: "photo"){
                         showImages.toggle()
                     }
                 }
+                ToolbarItem(placement: .topBarLeading){
+                    Button("Filter", systemImage:
+                            filterByInterested ? "star.fill" :"star"){
+                        withAnimation{
+                            filterByInterested.toggle()
+                        }
+                    }.tint(filterByInterested ? .yellow : .blue)
+                }
             }
+            
+            
+            
             .sheet(isPresented: $showImages) {
                 Scrolling()
             }
