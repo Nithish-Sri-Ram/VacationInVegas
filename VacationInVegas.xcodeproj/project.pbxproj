@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A604EEC32CB653CC0032E74B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A604EEC22CB653CC0032E74B /* MapView.swift */; };
+		A673DC182CB6AA8A00318D3B /* VegasChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A673DC172CB6AA8A00318D3B /* VegasChart.swift */; };
 		A67A7F9B2C7F9A220013792D /* VacationInVegasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67A7F9A2C7F9A220013792D /* VacationInVegasApp.swift */; };
 		A67A7F9D2C7F9A220013792D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67A7F9C2C7F9A220013792D /* ContentView.swift */; };
 		A67A7F9F2C7F9A230013792D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67A7F9E2C7F9A230013792D /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		A604EEC22CB653CC0032E74B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A673DC172CB6AA8A00318D3B /* VegasChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegasChart.swift; sourceTree = "<group>"; };
 		A67A7F972C7F9A220013792D /* VacationInVegas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VacationInVegas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67A7F9A2C7F9A220013792D /* VacationInVegasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationInVegasApp.swift; sourceTree = "<group>"; };
 		A67A7F9C2C7F9A220013792D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			children = (
 				A67A7F9A2C7F9A220013792D /* VacationInVegasApp.swift */,
 				A67A7F9C2C7F9A220013792D /* ContentView.swift */,
+				A673DC172CB6AA8A00318D3B /* VegasChart.swift */,
 				A698D2A62CB52C2000B1C3DA /* PlaceList.swift */,
 				A604EEC22CB653CC0032E74B /* MapView.swift */,
 				A67A7FA82C7F9DF10013792D /* Symbols.swift */,
@@ -161,6 +164,7 @@
 				A698D2A72CB52C2000B1C3DA /* PlaceList.swift in Sources */,
 				A698D2A12CB4F07C00B1C3DA /* ScrollImage.swift in Sources */,
 				A698D2A52CB4F82E00B1C3DA /* Place.swift in Sources */,
+				A673DC182CB6AA8A00318D3B /* VegasChart.swift in Sources */,
 				A698D2A32CB4F65E00B1C3DA /* Scrolling.swift in Sources */,
 				A67A7F9B2C7F9A220013792D /* VacationInVegasApp.swift in Sources */,
 			);
