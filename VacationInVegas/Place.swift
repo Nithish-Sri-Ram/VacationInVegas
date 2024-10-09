@@ -9,6 +9,7 @@ import SwiftUI
 import SwiftData
 import MapKit
 
+//@available(iOS 18, *)
 @Model
 class Place{
 //    Make sure the name and combination of all the plces is unique with the below
