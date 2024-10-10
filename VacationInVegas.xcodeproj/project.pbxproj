@@ -18,6 +18,7 @@
 		A698D2A32CB4F65E00B1C3DA /* Scrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = A698D2A22CB4F65E00B1C3DA /* Scrolling.swift */; };
 		A698D2A52CB4F82E00B1C3DA /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = A698D2A42CB4F82E00B1C3DA /* Place.swift */; };
 		A698D2A72CB52C2000B1C3DA /* PlaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A698D2A62CB52C2000B1C3DA /* PlaceList.swift */; };
+		A6F1743D2CB790D9004BE93B /* TripsChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F1743C2CB790D9004BE93B /* TripsChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		A698D2A22CB4F65E00B1C3DA /* Scrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrolling.swift; sourceTree = "<group>"; };
 		A698D2A42CB4F82E00B1C3DA /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		A698D2A62CB52C2000B1C3DA /* PlaceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceList.swift; sourceTree = "<group>"; };
+		A6F1743C2CB790D9004BE93B /* TripsChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				A67A7F9A2C7F9A220013792D /* VacationInVegasApp.swift */,
 				A67A7F9C2C7F9A220013792D /* ContentView.swift */,
 				A673DC172CB6AA8A00318D3B /* VegasChart.swift */,
+				A6F1743C2CB790D9004BE93B /* TripsChart.swift */,
 				A698D2A62CB52C2000B1C3DA /* PlaceList.swift */,
 				A604EEC22CB653CC0032E74B /* MapView.swift */,
 				A67A7FA82C7F9DF10013792D /* Symbols.swift */,
@@ -163,6 +166,7 @@
 				A604EEC32CB653CC0032E74B /* MapView.swift in Sources */,
 				A698D2A72CB52C2000B1C3DA /* PlaceList.swift in Sources */,
 				A698D2A12CB4F07C00B1C3DA /* ScrollImage.swift in Sources */,
+				A6F1743D2CB790D9004BE93B /* TripsChart.swift in Sources */,
 				A698D2A52CB4F82E00B1C3DA /* Place.swift in Sources */,
 				A673DC182CB6AA8A00318D3B /* VegasChart.swift in Sources */,
 				A698D2A32CB4F65E00B1C3DA /* Scrolling.swift in Sources */,
